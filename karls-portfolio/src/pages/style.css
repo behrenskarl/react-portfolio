@@ -1,0 +1,105 @@
+body {
+    background-color: wheat;
+}
+
+.navbar-brand {
+    background-color: rgb(23, 162, 184);
+    padding: 1%;
+    color: ivory;
+}
+
+.card {
+    border: slategray;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 15pt;
+}
+
+.card-title {
+    background-color: rgb(23, 162, 184);
+    padding: 1%;
+    color: ivory;
+    display: flex;
+    justify-content: center;
+
+}
+
+.img-fluid {
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.card-img-top {
+    display: flex;
+    justify-content: center;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+#btn {
+    display: flex;
+    justify-content: center;
+    padding: 20pt;
+}
+
+.btn-primary {
+    background-color: rgb(23, 162, 184);
+    margin-bottom: 100pt;
+}
+
+/* #btn-info {
+    margin-bottom: 15pt;
+} */
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  .fa-github {
+      background: black;
+      color: white;
+  }
+  .fa-file {
+      background: black;
+      color: white;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(23, 162, 184);
+    color: white;
+    text-align: center;
+  }
