@@ -57,41 +57,17 @@ body {
 } */
 
 /* Style all font awesome icons */
-.fa {
+/* .fa {
     padding: 20px;
     font-size: 30px;
     width: 50px;
-    text-align: center;
+    text-align: flex;
     text-decoration: none;
-  }
+  } */
   
   /* Add a hover effect if you want */
   .fa:hover {
     opacity: 0.7;
-  }
-  
-  /* Set a specific color for each brand */
-  
-  /* Facebook */
-  .fa-facebook {
-    background: #3B5998;
-    color: white;
-  }
-  .fa-linkedin {
-    background: #007bb5;
-    color: white;
-  }
-  .fa-instagram {
-    background: #125688;
-    color: white;
-  }
-  .fa-github {
-      background: black;
-      color: white;
-  }
-  .fa-file {
-      background: black;
-      color: white;
   }
 
   .footer {
@@ -103,3 +79,24 @@ body {
     color: white;
     text-align: center;
   }
+#portfolio {
+    background-color: white;
+    margin-top: 30px;
+}
+
+#portfolio h1 {
+    border-bottom: solid silver;
+    padding-bottom: 10px;
+}
+
+#portfolio img {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    max-height: 200px;
+    max-width: 200px;
+}
+
+#portfolio p {
+    padding-top: 10px;
+}

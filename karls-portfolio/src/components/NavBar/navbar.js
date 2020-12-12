@@ -1,24 +1,21 @@
 import React from 'react';
 import { render } from 'react-dom';
 import './navbar.css';
+import Navbar from 'react-bootstrap/Navbar'
+import Nav from 'react-bootstrap/Nav'
 
 function NavBar() {
     return(
-        <div>
-            <nav className="navbar navbar-expand-sm navbar-light bg-light">
-                <span className="navbar-brand">Karl Behrens</span>
-                    <div className="container"></div>
-                        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                            <span className="navbar-toggler-icon"></span>
-                        </button>
-                    <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div className="navbar-nav">
-                            <a className="nav-item nav-link active" href="/about">About Me <span className="sr-only">(current)</span></a>
-                            <a className="nav-item nav-link" href="/portfolio">Portfolio</a>
-                        </div>
-                    </div>
-            </nav>
-        </div>
+        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+            <Navbar.Brand href="/about">Karl Behrens</Navbar.Brand>
+            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+            <Navbar.Collapse id="responsive-navbar-nav">
+                <Nav className="mr-auto">
+                    <Nav.Link href="/about">About Me</Nav.Link>
+                    <Nav.Link href="/portfolio">Portfolio</Nav.Link>
+                </Nav>
+            </Navbar.Collapse>
+        </Navbar>
     )
 }
 
