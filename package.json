@@ -21,8 +21,8 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "predeploy": "cd karls-portfolio && npm run build",
+    "deploy": "cd karls-portfolio && gh-pages -d build",
     "start": "cd karls-portfolio && npm start",
     "build": "cd karls-portfolio && npm run build",
     "test": "react-scripts test",
