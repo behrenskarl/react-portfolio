@@ -1,8 +1,13 @@
 import React from 'react';
 import { render } from 'react-dom';
 import './navbar.css';
-import Navbar from 'react-bootstrap/Navbar'
-import Nav from 'react-bootstrap/Nav'
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
+import { openComposer } from 'react-native-email-link';
+ 
+openComposer({
+   to: 'behrens.karl@gmail.com',
+});
 
 function NavBar() {
     return(
@@ -15,6 +20,7 @@ function NavBar() {
                     <Nav.Link href="/portfolio">Portfolio</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
+            <Navbar.Brand onClick={openComposer} className="email">Contact: behrens.karl@gmail.com</Navbar.Brand>
         </Navbar>
     )
 }
