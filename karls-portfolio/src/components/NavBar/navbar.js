@@ -1,5 +1,4 @@
 import React from 'react';
-import { render } from 'react-dom';
 import './navbar.css';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
@@ -23,6 +22,6 @@ function NavBar() {
             <Navbar.Brand onClick={openComposer} className="email">Contact: behrens.karl@gmail.com</Navbar.Brand>
         </Navbar>
     )
-}
+};
 
 export default NavBar;
