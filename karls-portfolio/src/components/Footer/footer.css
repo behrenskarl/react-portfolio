@@ -1,21 +1,25 @@
 .fa-facebook {
-    background: #3B5998;
+    background: rgb(23, 162, 184);
+    /* color: #3B5998; */
     color: white;
   }
   .fa-linkedin {
-    background: #007bb5;
+    background: rgb(23, 162, 184);
     color: white;
+    /* color: #007bb5; */
   }
   .fa-instagram {
-    background: #125688;
+    background: rgb(23, 162, 184);
     color: white;
+    /* color: #125688; */
   }
   .fa-github {
-      background: black;
+      background: rgb(23, 162, 184);
       color: white;
+      /* color: black; */
   }
   .fa-file {
-      background: black;
+      background: rgb(23, 162, 184);
       color: white;
   }
   /* Style all font awesome icons */
@@ -25,6 +29,8 @@
     width: 50px;
     text-align: center;
     text-decoration: none;
+    outline: none !important;
+    outline-offset: none !important;
   }
   
   /* Add a hover effect if you want */
@@ -32,6 +38,8 @@
     opacity: 0.7;
   }
   .footer {
+    display: flex;
+    justify-content: space-evenly;
     position: fixed;
     left: 0;
     bottom: 0;
