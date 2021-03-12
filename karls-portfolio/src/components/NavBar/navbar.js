@@ -19,7 +19,9 @@ function NavBar() {
                     <Nav.Link href="/portfolio">Portfolio</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
-            <Navbar.Brand className="email">Contact: behrens.karl@gmail.com</Navbar.Brand>
+            <Navbar.Brand>
+                <a className="email" href="mailto:behrens.karl@gmail.com">Contact: behrens.karl@gmail.com</a> 
+            </Navbar.Brand>
         </Navbar>
     )
 };

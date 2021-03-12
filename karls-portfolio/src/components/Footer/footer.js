@@ -1,8 +1,7 @@
 import React from 'react';
 import './footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
-
+import { faFile } from '@fortawesome/free-solid-svg-icons';
 
 function Footer() {
     return(
@@ -18,8 +17,8 @@ function Footer() {
                 </a>
             </button>
             <button className="fa fa-file">
-                 <a href="https://drive.google.com/file/d/1TUAIOlvAzcfU6eidOATrXILaWbUyvqbe/view?usp=sharing" target="_blank" rel="noopener noreferrer">
-                    <FontAwesomeIcon icon="fa fa-file" />
+                <a href="https://drive.google.com/file/d/1TUAIOlvAzcfU6eidOATrXILaWbUyvqbe/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <FontAwesomeIcon icon={faFile} />
                 </a>
             </button>
             <button className="fa fa-github">
