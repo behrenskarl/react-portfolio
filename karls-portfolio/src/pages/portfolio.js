@@ -22,14 +22,17 @@ class Portfolio extends Component {
 
                             <a href="https://behrenskarl.github.io/password-generator/">
                             <img src={passwordgenerator} className="img-fluid-2" id='pimg2' alt='password-generator'/>
+                            <h1>https://behrenskarl.github.io/password-generator/</h1>
                             </a>
 
                             <a href="https://behrenskarl.github.io/weather-dashboard/">
                             <img src={weatherdashboard} className="img-fluid-2" id='pimg3' alt='weather-dashboard'/>
+                            <h1>https://behrenskarl.github.io/weather-dashboard/</h1>
                             </a>
 
                             <a href="https://dndbuddy2-live.herokuapp.com/login">
                             <img src={dndbuddy} className="img-fluid-2" id='pimg5' alt='20-sided-die'/>
+                            <h1>https://github.com/wmwassmann/dnd-buddy-2.0</h1>
                             </a>
 
                         </div>
